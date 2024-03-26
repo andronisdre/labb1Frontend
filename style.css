@@ -1,0 +1,15 @@
+header {
+  text-align: center;
+  align-items: center;
+}
+
+nav,
+ul,
+li {
+  display: inline;
+}
+
+.Picture {
+  max-width: 100%;
+  height: auto;
+}
