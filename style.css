@@ -1,4 +1,8 @@
+body {
+}
+
 header {
+  margin: 40px;
   text-align: center;
   align-items: center;
 }
@@ -6,10 +10,70 @@ header {
 nav,
 ul,
 li {
+  position: relative;
   display: inline;
+}
+
+nav {
 }
 
 .Picture {
   max-width: 100%;
   height: auto;
+}
+
+main h1 {
+  font-size: 48px;
+}
+
+main {
+  margin: 40px;
+}
+
+.Bitcoin {
+  position: relative;
+  max-width: 700px;
+  margin: auto;
+  font-family: "Arial", sans-serif;
+}
+
+.gradient-mask {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 30%;
+  /*gradient overlay*/
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.9), transparent);
+}
+
+.text-content {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: white;
+}
+
+.text-content h3 {
+  color: orangered;
+}
+
+.text-content h2 {
+  font-size: 22px;
+  margin: 0;
+}
+
+.text-content p {
+  font-size: 14px;
+  color: lightgray;
+  margin: 0;
+}
+
+footer {
+  background: black;
+  color: white;
+  padding: 40px;
+}
+
+footer h2 {
 }
